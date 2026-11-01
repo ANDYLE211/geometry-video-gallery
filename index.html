@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#080e1b" />
+  <meta name="description" content="Geometry Lab — 计算几何、最优传输、图形学与科学可视化视频作品集。" />
+  <title>Geometry Lab · 算法与可视化作品集</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="#top" aria-label="返回首页"><span class="brand-mark">G<span>·</span></span><span>GEOMETRY <em>LAB</em></span></a><nav aria-label="主导航"><a href="#works">作品</a><a href="#about">关于</a><a class="nav-github" href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></nav></header>
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-heading"><div class="hero-inner"><div class="eyebrow"><span class="live-dot"></span> RESEARCH · CODE · VISUALIZATION</div><h1 id="hero-heading">探索几何与计算的<br/><span>可视化边界</span><span class="cursor">_</span></h1><p class="hero-description">用动态图像呈现抽象算法。记录计算共形几何、最优传输、流体渲染与科学可视化的研究和实现过程。</p><div class="hero-actions"><a class="primary-btn" href="#works">浏览视频作品 <span aria-hidden="true">↗</span></a><a class="secondary-btn" href="#about">了解项目 <span aria-hidden="true">↓</span></a></div><div class="hero-stats"><div><strong id="stat-total">—</strong><span>视频作品</span></div><div><strong id="stat-categories">—</strong><span>研究方向</span></div><div><strong>OPEN</strong><span>持续更新</span></div></div></div><figure class="hero-visual"><img src="assets/hero-geometry.jpg" alt="黑白棋盘格覆盖的双孔曲面，展示曲面几何与映射的视觉结构" width="511" height="511" fetchpriority="high" decoding="async" /></figure></section>
+    <section class="works section-wrap" id="works" aria-labelledby="works-heading"><div class="section-top"><div><p class="section-kicker">01 / SELECTED WORKS</p><h2 id="works-heading">视频作品集<span class="accent">.</span></h2><p class="section-description">从理论到实现，观看可交互的算法成果与技术演示。</p></div><span class="results-count" id="results-count" aria-live="polite">加载中…</span></div><div class="toolbar"><div class="filter-list" id="filters" role="group" aria-label="按分类筛选"></div><label class="sort-control">排序<select id="sort-order" aria-label="视频排序"><option value="grouped">分组排列 · 最新优先</option><option value="newest">日期 · 从新到旧</option><option value="oldest">日期 · 从旧到新</option></select></label><label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/></svg><input id="search-input" type="search" placeholder="搜索标题 / 关键词 / 技术…" aria-label="搜索视频" /></label></div><div id="video-grid" class="video-grid" aria-live="polite"></div><p class="empty-state" id="empty-state" hidden>未找到符合条件的视频。请尝试其他关键词或分类。</p></section>
+    <section id="about" class="about section-wrap"><p class="section-kicker">02 / ABOUT THIS COLLECTION</p><div class="about-layout"><h2>让算法<br/><span>看得见。</span></h2><div><p>Geometry Lab 是一个面向算法研究与工程实践的视频作品集，内容覆盖计算共形几何、最优传输、生成模型、水体模拟与三维可视化。</p><p>每个作品汇集短视频演示、技术概述以及延伸链接，方便交流、分享与持续归档。</p><div class="about-tags"><span>COMPUTATIONAL GEOMETRY</span><span>GRAPHICS</span><span>OPTIMAL TRANSPORT</span><span>VISUALIZATION</span></div></div></div></section>
+  </main>
+  <footer class="footer"><span>© <span id="year"></span> GEOMETRY LAB</span><span>BUILT FOR CURIOSITY · POWERED BY GITHUB PAGES</span><a href="#top">BACK TO TOP ↑</a></footer>
+  <dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-shell"><button class="close-dialog" id="close-dialog" aria-label="关闭详情">✕</button><div class="player-wrap" id="player-wrap"></div><div class="detail-body"><div class="detail-category" id="detail-category"></div><h2 id="detail-title"></h2><p id="detail-description"></p><div class="detail-tags" id="detail-tags"></div><div class="detail-links" id="detail-links"></div></div></div></dialog>
+</body>
+</html>

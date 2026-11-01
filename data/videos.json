@@ -1,0 +1,724 @@
+[
+  {
+    "id": "BV16jaf6EEF8",
+    "title": "里奇流破解无线传感器贪心路由 ricciflow Geometric Routing",
+    "category": "计算共形几何",
+    "summary": "本项目基于离散 Ricci 流（Discrete Ricci Flow）与微分几何理论，彻底解决无线传感器网络中传统贪心路由遭遇“局部极小点（路由陷阱洞）”导致丢包的经典难题。 系统通过曲率流热方程迭…",
+    "description": "本项目基于离散 Ricci 流（Discrete Ricci Flow）与微分几何理论，彻底解决无线传感器网络中传统贪心路由遭遇“局部极小点（路由陷阱洞）”导致丢包的经典难题。\n\n系统通过曲率流热方程迭代调节三角网格边长，抹平内蕴几何缺陷，将含孔洞的网络共形展平至目标标准度量空间（如双曲圆盘），构建无局部陷阱的虚拟坐标系。结合双曲测地线与贪心转发，理论及算法上均保证了 100% 的数据包成功交付率，为几何网络路由与流形计算提供了直观的交互式仿真与可视化实现。",
+    "tags": [
+      "Ricci Flow"
+    ],
+    "placeholder": "cover-geometry.svg",
+    "cover": "assets/cover-BV16jaf6EEF8.webp",
+    "bvid": "BV16jaf6EEF8",
+    "page": 1,
+    "duration": "05:16",
+    "links": [],
+    "publishedAt": "2026-09-30"
+  },
+  {
+    "id": "BV1XMhQ62EeW",
+    "title": "球面共形映射 (Spherical Conformal Map)",
+    "category": "计算共形几何",
+    "summary": "在原粗糙单阶段调和映射基础上（bilibili.com/video/BV148bn65EMH/），补全了双极几何平均尺度缩放、核心的南极线性 Beltrami (LBS) 拟共形修正，并保角 Möbi…",
+    "description": "在原粗糙单阶段调和映射基础上（bilibili.com/video/BV148bn65EMH/），补全了双极几何平均尺度缩放、核心的南极线性 Beltrami (LBS) 拟共形修正，并保角 Möbius 变换取代了原破坏共形性的欧氏平移，从数学上反向抵消开洞剪切形变。\n增加了纹理贴图\n彻底消除了躯干贴图被极度压缩为噪点及极点拉扯的问题；全域恢复严格的 90∘保角正交性；球面网格达到高度中心对称与均匀过渡；量化平均角畸变由严重畸变骤降至仅 2.41∘",
+    "tags": [
+      "共形映射"
+    ],
+    "placeholder": "cover-geometry.svg",
+    "cover": "assets/cover-BV1XMhQ62EeW.webp",
+    "bvid": "BV1XMhQ62EeW",
+    "page": 1,
+    "duration": "04:25",
+    "links": [],
+    "publishedAt": "2026-09-26"
+  },
+  {
+    "id": "BV1GRaN6XEG5",
+    "title": "圆盘填充艺术2",
+    "category": "计算共形几何",
+    "summary": "本项目基于计算共形几何理论，在浏览器端纯 JavaScript 实现了三维曲面上的圆盘填充 (Circle Packing)。通过切向离散 Ricci 流与 Thurston Hessian 矩阵求解…",
+    "description": "本项目基于计算共形几何理论，在浏览器端纯 JavaScript 实现了三维曲面上的圆盘填充 (Circle Packing)。通过切向离散 Ricci 流与 Thurston Hessian 矩阵求解保持原曲面高斯曲率的内蕴圆半径；结合 L-BFGS 拟牛顿法对空间网格进行微调重构，使各顶点切平面上的圆在三维空间中严丝合缝外切接触，并支持 1-Ring 邻域特写与 360° 交互式沉浸漫游\n#CirclePacking #里奇流 #计算共形几何",
+    "tags": [
+      "Circle Packing",
+      "圆盘填充"
+    ],
+    "placeholder": "cover-geometry.svg",
+    "cover": "assets/cover-BV1GRaN6XEG5.webp",
+    "bvid": "BV1GRaN6XEG5",
+    "page": 1,
+    "duration": "02:43",
+    "links": [],
+    "publishedAt": "2026-09-24"
+  },
+  {
+    "id": "BV1dQhW6CEXc",
+    "title": "Circle Packing Art 圆盘填充艺术",
+    "category": "计算共形几何",
+    "summary": "本项目基于计算几何与数字图像处理技术，完整实现了经典生成艺术作品 Mona Lisa/Starry Night/Girl with a Pearl Earring Pie Packed 所采用的技术路…",
+    "description": "本项目基于计算几何与数字图像处理技术，完整实现了经典生成艺术作品 Mona Lisa/Starry Night/Girl with a Pearl Earring Pie Packed 所采用的技术路线：图像分割 (Image Segmentation) + 圆盘填充 (Circle Packing) + 圆域主导色彩饼图数据可视化 (Dominant Color Pie Chart)。",
+    "tags": [
+      "Circle Packing",
+      "圆盘填充"
+    ],
+    "placeholder": "cover-geometry.svg",
+    "cover": "assets/cover-BV1dQhW6CEXc.webp",
+    "bvid": "BV1dQhW6CEXc",
+    "page": 1,
+    "duration": "02:36",
+    "links": [],
+    "publishedAt": "2026-09-23"
+  },
+  {
+    "id": "BV1iRhv63E6e",
+    "title": "里奇流 圆盘填充（Circle Packing）",
+    "category": "计算共形几何",
+    "summary": "本项目基计算共形几何与离散曲率流理论，使用纯 JavaScript 实现了切向 Ricci 流与圆盘填充（Circle Packing）算法。针对拓扑圆盘三角网格，算法通过稀疏牛顿法迭代优化圆半径与边…",
+    "description": "本项目基计算共形几何与离散曲率流理论，使用纯 JavaScript 实现了切向 Ricci 流与圆盘填充（Circle Packing）算法。针对拓扑圆盘三角网格，算法通过稀疏牛顿法迭代优化圆半径与边长度量，将网格共形展平为矩形以精确测量对边极值长度（共形模数）；同时支持双曲庞加莱圆盘的最大圆堆积求解及球面极射投影可视化，兼顾了几何严谨性与 Web 端实时交互。\n#ricciflow #计算共形几何 #里奇流 #CirclePacking #双曲庞加莱圆盘 #球面极射投影 #圆盘填充  #离散曲率流",
+    "tags": [
+      "Circle Packing",
+      "圆盘填充"
+    ],
+    "placeholder": "cover-geometry.svg",
+    "cover": "assets/cover-BV1iRhv63E6e.webp",
+    "bvid": "BV1iRhv63E6e",
+    "page": 1,
+    "duration": "02:58",
+    "links": [],
+    "publishedAt": "2026-09-21"
+  },
+  {
+    "id": "BV15yem67EoN",
+    "title": "squaretiling 方形密铺",
+    "category": "计算共形几何",
+    "summary": "Square tiling of a 3-connected graph 本方法基于离散共形几何与极值度量理论：将平面图每个顶点映射为一个正方形，以极值度量作为方块边长，利用到对边边界的最短加权路径距…",
+    "description": "Square tiling of a 3-connected graph\n本方法基于离散共形几何与极值度量理论：将平面图每个顶点映射为一个正方形，以极值度量作为方块边长，利用到对边边界的最短加权路径距离确定其二维坐标。图节点相连当且仅当对应方块物理相切，最终在目标矩形内实现 100% 覆盖的完美无缝相切密铺。\n#计算共形几何 #方形密铺 #Squaretiling #circlepacking",
+    "tags": [
+      "Square tiling"
+    ],
+    "placeholder": "cover-geometry.svg",
+    "cover": "assets/cover-BV15yem67EoN.webp",
+    "bvid": "BV15yem67EoN",
+    "page": 1,
+    "duration": "01:24",
+    "links": [],
+    "publishedAt": "2026-09-18"
+  },
+  {
+    "id": "BV1wnYx6hEmn",
+    "title": "二向箔技术 法向滤波 + 泊松重构",
+    "category": "计算共形几何",
+    "summary": "二向箔技术 法向滤波 + 泊松重构 CMC（曲率最小化约束）是一种三角网格光顺算法，分两个阶段执行。第一阶段为法向滤波：对每个三角面在多环拓扑邻域内以面积加权平均计算目标法向，去除噪声同时保留折痕特征…",
+    "description": "二向箔技术 法向滤波 + 泊松重构\n\nCMC（曲率最小化约束）是一种三角网格光顺算法，分两个阶段执行。第一阶段为法向滤波：对每个三角面在多环拓扑邻域内以面积加权平均计算目标法向，去除噪声同时保留折痕特征。第二阶段为泊松重构：利用 Rodrigues 旋转公式将法向变化转化为旋转梯度场，再通过求解余切拉普拉斯线性方程组将梯度场反演为全局一致的顶点坐标，避免网格出现裂缝或自交。反复迭代两步，网格曲面逐渐趋向光顺自然的极小曲率形态。\n\n参考： Mesh Parameterization a Viewpoint",
+    "tags": [
+      "计算共形几何"
+    ],
+    "placeholder": "cover-geometry.svg",
+    "cover": "assets/cover-BV1wnYx6hEmn.webp",
+    "bvid": "BV1wnYx6hEmn",
+    "page": 1,
+    "duration": "01:24",
+    "links": [],
+    "publishedAt": "2026-09-09"
+  },
+  {
+    "id": "BV148bn65EMH",
+    "title": "球面共形映射 (Genus 0)",
+    "category": "计算共形几何",
+    "summary": "球面共形映射 (Genus 0)演示",
+    "description": "球面共形映射 (Genus 0)演示",
+    "tags": [
+      "共形映射"
+    ],
+    "placeholder": "cover-geometry.svg",
+    "cover": "assets/cover-BV148bn65EMH.webp",
+    "bvid": "BV148bn65EMH",
+    "page": 1,
+    "duration": "03:22",
+    "links": [],
+    "publishedAt": "2026-09-06"
+  },
+  {
+    "id": "BV1dJbL61ESK",
+    "title": "万有覆盖空间 Euclidean Universal Covering Space of a Genus g = 1 Surface",
+    "category": "计算共形几何",
+    "summary": "Euclidean Universal Covering Space of a Genus g = 1 Surface halfedge mesh → homology basis / cut gra…",
+    "description": "Euclidean Universal Covering Space of a Genus g = 1 Surface\nhalfedge mesh → homology basis / cut graph → Euclidean Ricci flow → Euclidean unfolding → complex translation deck transforms → rectangular lattice tiling",
+    "tags": [
+      "Ricci Flow",
+      "Homology",
+      "Covering Space",
+      "cut graph"
+    ],
+    "placeholder": "cover-geometry.svg",
+    "cover": "assets/cover-BV1dJbL61ESK.webp",
+    "bvid": "BV1dJbL61ESK",
+    "page": 1,
+    "duration": "01:29",
+    "links": [],
+    "publishedAt": "2026-09-05"
+  },
+  {
+    "id": "BV1iotT6sEqT",
+    "title": "双曲万有覆盖可视化",
+    "category": "计算共形几何",
+    "summary": "本项目实现基于离散共形几何的高亏格曲面双曲万有覆盖空间前端可视化。系统直接在浏览器端处理三角网格，完整执行严密的计算几何流程： 首先通过 Tree-Cotree 分解构造 Cut Graph 切开曲面…",
+    "description": "本项目实现基于离散共形几何的高亏格曲面双曲万有覆盖空间前端可视化。系统直接在浏览器端处理三角网格，完整执行严密的计算几何流程：\n首先通过 Tree-Cotree 分解构造 Cut Graph 切开曲面，运行双曲 Ricci Flow 与 Delaunay 优化求解度量；随后将基本域展开至 Poincaré 圆盘，并提取边界链计算 Möbius 甲板变换矩阵，最终在双曲空间生成无缝的递归铺嵌。\n借助 Three.js 双视图界面，系统联动呈现三维切割网络与二维动态铺嵌副本，为几何理论研究提供了直观的 Web",
+    "tags": [
+      "Three.js",
+      "Ricci Flow",
+      "cut graph",
+      "万有覆盖"
+    ],
+    "placeholder": "cover-geometry.svg",
+    "cover": "assets/cover-BV1iotT6sEqT.webp",
+    "bvid": "BV1iotT6sEqT",
+    "page": 1,
+    "duration": "01:44",
+    "links": [],
+    "publishedAt": "2026-09-01"
+  },
+  {
+    "id": "BV19C416RE92",
+    "title": "泰希米勒映射",
+    "category": "计算共形几何",
+    "summary": "该泰希米勒映射示例展示了基于控制点的二维网格映射流程：左侧显示原始网格或顶点颜色，右侧显示目标参数域、网格与纹理。用户可添加对应控制点，固定边界并运行算法，观察网格如何在保持拓扑结构的同时逐步匹配目标…",
+    "description": "该泰希米勒映射示例展示了基于控制点的二维网格映射流程：左侧显示原始网格或顶点颜色，右侧显示目标参数域、网格与纹理。用户可添加对应控制点，固定边界并运行算法，观察网格如何在保持拓扑结构的同时逐步匹配目标纹理，实现从源形状到目标图像的可视化注册。\n#Teichmüller Mapping 、#控制点、#网格映射、#纹理注册、#参数化",
+    "tags": [
+      "计算共形几何"
+    ],
+    "placeholder": "cover-geometry.svg",
+    "cover": "assets/cover-BV19C416RE92.webp",
+    "bvid": "BV19C416RE92",
+    "page": 1,
+    "duration": "02:20",
+    "links": [],
+    "publishedAt": "2026-08-29"
+  },
+  {
+    "id": "BV1Ky8269E2G",
+    "title": "计算共形几何 Abel-Jacobi 四边形网格生成",
+    "category": "计算共形几何",
+    "summary": "该算法基于黎曼曲面理论，利用满足 Abel-Jacobi 条件的亚纯四次微分来生成任意亏格闭曲面的四边形网格。核心计算流程包括：首先在离散网格上计算规范全纯基与周期矩阵；其次，优化奇异点（除子）位置使…",
+    "description": "该算法基于黎曼曲面理论，利用满足 Abel-Jacobi 条件的亚纯四次微分来生成任意亏格闭曲面的四边形网格。核心计算流程包括：首先在离散网格上计算规范全纯基与周期矩阵；其次，优化奇异点（除子）位置使其严格满足 Abel 条件；接着利用离散 Yamabe 流计算曲率集中的平坦度量；最后，通过追踪四次微分的有限临界轨迹，将曲面切分为拓扑矩形网络（Motograph），进而参数化提取出高质量的纯四边形网格。\n#计算共形几何 #Abel-Jacobi  #四边形网格生成",
+    "tags": [
+      "Abel-Jacobi"
+    ],
+    "placeholder": "cover-geometry.svg",
+    "cover": "assets/cover-BV1Ky8269E2G.webp",
+    "bvid": "BV1Ky8269E2G",
+    "page": 1,
+    "duration": "02:23",
+    "links": [],
+    "publishedAt": "2026-08-22"
+  },
+  {
+    "id": "BV1bpgA6nEVd",
+    "title": "计算共形几何作业  slit map算法",
+    "category": "计算共形几何",
+    "summary": "计算共形几何作业 slit map算法 Slit Map Algorithm 用于将亏格为0、具有多个边界分量的曲面（拓扑圆盘带洞）共形映射到圆形 slit 区域。该算法基于全纯微分形式、调和分析和H…",
+    "description": "计算共形几何作业\nslit map算法\nSlit Map Algorithm 用于将亏格为0、具有多个边界分量的曲面（拓扑圆盘带洞）共形映射到圆形 slit 区域。该算法基于全纯微分形式、调和分析和Hodge分解理论。\n#计算共形几何 #slitmap算法",
+    "tags": [
+      "Hodge",
+      "Slit Map",
+      "共形映射"
+    ],
+    "placeholder": "cover-geometry.svg",
+    "cover": "assets/cover-BV1bpgA6nEVd.webp",
+    "bvid": "BV1bpgA6nEVd",
+    "page": 1,
+    "duration": "01:29",
+    "links": [],
+    "publishedAt": "2026-08-14"
+  },
+  {
+    "id": "BV16RGG6TEY6",
+    "title": "计算共形几何  Hodge分解计算",
+    "category": "计算共形几何",
+    "summary": "计算共形几何 Hodge分解计算 #计算共形几何 #Hodge分解 #外微分",
+    "description": "计算共形几何\nHodge分解计算\n#计算共形几何 #Hodge分解 #外微分",
+    "tags": [
+      "Hodge"
+    ],
+    "placeholder": "cover-geometry.svg",
+    "cover": "assets/cover-BV16RGG6TEY6.webp",
+    "bvid": "BV16RGG6TEY6",
+    "page": 1,
+    "duration": "02:52",
+    "links": [],
+    "publishedAt": "2026-08-01"
+  },
+  {
+    "id": "BV1MJ3E6aEEw",
+    "title": "持续上同调",
+    "category": "计算共形几何",
+    "summary": "持续上同调 计算 Handle Tunnel Loops 计算共形几何 第二次作业",
+    "description": "持续上同调 计算 Handle  Tunnel Loops\n计算共形几何 第二次作业",
+    "tags": [
+      "持续上同调"
+    ],
+    "placeholder": "cover-geometry.svg",
+    "cover": "assets/cover-BV1MJ3E6aEEw.webp",
+    "bvid": "BV1MJ3E6aEEw",
+    "page": 1,
+    "duration": "01:30",
+    "links": [],
+    "publishedAt": "2026-07-26"
+  },
+  {
+    "id": "BV1pegv6AEJ4",
+    "title": "计算共形几何 cut graph算法",
+    "category": "计算共形几何",
+    "summary": "计算共形几何 cut graph算法 #火烧法 #cutgraph #计算共形几何",
+    "description": "计算共形几何 cut graph算法\n#火烧法 #cutgraph #计算共形几何",
+    "tags": [
+      "cut graph"
+    ],
+    "placeholder": "cover-geometry.svg",
+    "cover": "assets/cover-BV1pegv6AEJ4.webp",
+    "bvid": "BV1pegv6AEJ4",
+    "page": 1,
+    "duration": "01:41",
+    "links": [],
+    "publishedAt": "2026-07-24"
+  },
+  {
+    "id": "BV1UggQ6XEML",
+    "title": "计算共形几何 万有覆盖空间",
+    "category": "计算共形几何",
+    "summary": "计算共形几何 万有覆盖空间 2026年顾老师开计算共形几何课（https://mp.weixin.qq.com/s/xQcc9mw9nqUSrj3mRcQ5OQ） 这一次，终于搞懂之前一直模糊的概念了…",
+    "description": "计算共形几何 万有覆盖空间\n2026年顾老师开计算共形几何课（https://mp.weixin.qq.com/s/xQcc9mw9nqUSrj3mRcQ5OQ）\n这一次，终于搞懂之前一直模糊的概念了，上web版demo\n#万有覆盖空间 #代数拓扑 #曲面基本群 #Deckransformations #平铺镶嵌",
+    "tags": [
+      "万有覆盖"
+    ],
+    "placeholder": "cover-geometry.svg",
+    "cover": "assets/cover-BV1UggQ6XEML.webp",
+    "bvid": "BV1UggQ6XEML",
+    "page": 1,
+    "duration": "00:48",
+    "links": [],
+    "publishedAt": "2026-07-23"
+  },
+  {
+    "id": "BV1kyrrBZEZv",
+    "title": "polycube",
+    "category": "计算共形几何",
+    "summary": "基于WebGL 完成Polycube算法。 参考文献：Hui Zhao, Na Lei, Xuan Li, Peng Zeng, Ke Xu, and Xianfeng Gu Robust edge-…",
+    "description": "基于WebGL 完成Polycube算法。\n参考文献：Hui Zhao, Na Lei, Xuan Li, Peng Zeng, Ke Xu, and Xianfeng Gu\nRobust edge-preserving surface mesh polycube deformation \n\n摘要：多面体构建和变形是计算机图形学中的重要问题。本文提出了一种鲁棒、简单、高效且自动的算法，\n用于将任意网格形状变形为多面体形式。我们推导出了网格及其对应多面体形状之间的清晰关系。\n我们的算法能够保留边缘结构，并且",
+    "tags": [
+      "Polycube",
+      "WebGL"
+    ],
+    "placeholder": "cover-geometry.svg",
+    "cover": "assets/cover-BV1kyrrBZEZv.webp",
+    "bvid": "BV1kyrrBZEZv",
+    "page": 1,
+    "duration": "01:33",
+    "links": [],
+    "publishedAt": "2026-01-16"
+  },
+  {
+    "id": "BV1qdrTBpEK7",
+    "title": "四面体网格生成与可视化工具",
+    "category": "计算共形几何",
+    "summary": "四面体网格生成与可视化工具 这是一个基于 WebAssembly (WASM) 和 Three.js 的高性能 Web 应用程序，用于在浏览器中直接将 3D 表面模型生成四面体网格并进行可视化。 该工…",
+    "description": "四面体网格生成与可视化工具\n\n这是一个基于 WebAssembly (WASM) 和 Three.js 的高性能 Web 应用程序，用于在浏览器中直接将 3D 表面模型生成四面体网格并进行可视化。\n\n该工具利用 Emscripten 将 C++ 四面体化库编译为 WASM，实现了客户端的快速网格生成，结合 GPU 加速渲染，提供了流畅的交互体验。",
+    "tags": [
+      "四面体网格",
+      "WASM"
+    ],
+    "placeholder": "cover-geometry.svg",
+    "cover": "assets/cover-BV1qdrTBpEK7.webp",
+    "bvid": "BV1qdrTBpEK7",
+    "page": 1,
+    "duration": "02:17",
+    "links": [],
+    "publishedAt": "2026-01-09"
+  },
+  {
+    "id": "BV13oq9BeEDV",
+    "title": "高亏格模型和其万有覆盖实时绘制（双曲空间）",
+    "category": "计算共形几何",
+    "summary": "这是一个基于 Three.js 的交互式双曲几何绘图工具，可在 3D 亏格模型和其万有覆盖（双曲平面）之间实时绘制、纹理映射并进行平移/旋转操作。 通过 GUI 控制面板颜色、线框、纹理、自动动画等功…",
+    "description": "这是一个基于 Three.js 的交互式双曲几何绘图工具，可在 3D 亏格模型和其万有覆盖（双曲平面）之间实时绘制、纹理映射并进行平移/旋转操作。 通过 GUI 控制面板颜色、线框、纹理、自动动画等功能，支持键盘（WASD）和鼠标交互，实现对双曲空间的直观探索与艺术创作",
+    "tags": [
+      "双曲空间",
+      "Three.js"
+    ],
+    "placeholder": "cover-geometry.svg",
+    "cover": "assets/cover-BV13oq9BeEDV.webp",
+    "bvid": "BV13oq9BeEDV",
+    "page": 1,
+    "duration": "01:36",
+    "links": [],
+    "publishedAt": "2025-12-19"
+  },
+  {
+    "id": "BV1JCp7z4E44",
+    "title": "全纯映射 webgl 模拟可视化",
+    "category": "计算共形几何",
+    "summary": "全纯映射 webgl 模拟可视化 实域中两个真理的最短路程是通过复域 --hadamard",
+    "description": "全纯映射 webgl 模拟可视化 \n实域中两个真理的最短路程是通过复域\n--hadamard",
+    "tags": [
+      "WebGL",
+      "全纯映射"
+    ],
+    "placeholder": "cover-geometry.svg",
+    "cover": "assets/cover-BV1JCp7z4E44.webp",
+    "bvid": "BV1JCp7z4E44",
+    "page": 1,
+    "duration": "00:11",
+    "links": [],
+    "publishedAt": "2025-09-13"
+  },
+  {
+    "id": "BV1dypVzuEbf",
+    "title": "几何图像（geometry images）webgl 顾险峰 老师 示例",
+    "category": "计算共形几何",
+    "summary": "UE中最新Nanite虚拟微多边形几何技术，其本质是将传统的虚拟纹理技术与几何图像技术相结合，用纹理图像来表达几何纹理，从而可以支持无限复杂的几何数据，在我们自研T3D引擎中完成几何图像的动态加载",
+    "description": "UE中最新Nanite虚拟微多边形几何技术，其本质是将传统的虚拟纹理技术与几何图像技术相结合，用纹理图像来表达几何纹理，从而可以支持无限复杂的几何数据，在我们自研T3D引擎中完成几何图像的动态加载",
+    "tags": [
+      "Geometry Images",
+      "WebGL"
+    ],
+    "placeholder": "cover-geometry.svg",
+    "cover": "assets/cover-BV1dypVzuEbf.webp",
+    "bvid": "BV1dypVzuEbf",
+    "page": 1,
+    "duration": "00:30",
+    "links": [],
+    "publishedAt": "2025-09-13"
+  },
+  {
+    "id": "BV1NjnB6BEvw",
+    "title": "不用扩散模型！纯数学如何生成明星脸？",
+    "category": "最优传输",
+    "summary": "颠覆认知！不用扩散模型和 GAN，纯靠大学数学就能画出明星脸？🤯 为什么随机摇骰子会摇出扭曲“外星幽灵”？高维流形荒漠有多可怕？ 90 秒带你看透**计算共形几何 × 最优传输（OT）**的硬核生图四…",
+    "description": "颠覆认知！不用扩散模型和 GAN，纯靠大学数学就能画出明星脸？🤯  \n 为什么随机摇骰子会摇出扭曲“外星幽灵”？高维流形荒漠有多可怕？  \n90 秒带你看透**计算共形几何 × 最优传输（OT）**的硬核生图四步法：拉盖尔胞元精准搬运，潜空间测地线丝滑插值，把 AI 生成彻底变成可解释的几何秩序！✨\n\n#硬核AI #最优传输 #人工智能 #深度学习 #算法可视化 #数学之美 #计算机视觉\n\n参考书籍 《最优传输理论与计算》 作者: 雷娜 / 顾险峰",
+    "tags": [
+      "最优传输"
+    ],
+    "placeholder": "cover-ai.svg",
+    "cover": "assets/cover-BV1NjnB6BEvw.webp",
+    "bvid": "BV1NjnB6BEvw",
+    "page": 1,
+    "duration": "03:11",
+    "links": [],
+    "publishedAt": "2026-10-21"
+  },
+  {
+    "id": "BV1v5n56QE3W",
+    "title": "生成式模型如何规避坍塌？OT（区域生长）",
+    "category": "最优传输",
+    "summary": "**Region Growth（区域生长）**基于半离散最优传输理论，利用 Brenier 凸势及其共轭梯度映射，将 MNIST 手写数字的稀疏分布逐步扩展至均匀正方形。算法通过求解 5,000 个样…",
+    "description": "**Region Growth（区域生长）**基于半离散最优传输理论，利用 Brenier 凸势及其共轭梯度映射，将 MNIST 手写数字的稀疏分布逐步扩展至均匀正方形。算法通过求解 5,000 个样本对应的 Laguerre 胞元，实现区域连续生长与面积重分配，使零密度空隙逐渐收缩至零面积骨架。项目可视化展示凸势曲面、胞元演化及样本运动轨迹，并支持交互查看原始手写图像，直观揭示最优传输的几何原理。\n\n参考书籍 《最优传输理论与计算》 作者: 雷娜 / 顾险峰",
+    "tags": [
+      "Region Growth",
+      "MNIST",
+      "Brenier",
+      "Laguerre"
+    ],
+    "placeholder": "cover-ai.svg",
+    "cover": "assets/cover-BV1v5n56QE3W.webp",
+    "bvid": "BV1v5n56QE3W",
+    "page": 1,
+    "duration": "05:03",
+    "links": [],
+    "publishedAt": "2026-10-18"
+  },
+  {
+    "id": "BV19rJa6AENy",
+    "title": "AE-OT 深度生成模型",
+    "category": "最优传输",
+    "summary": "本项目基于顾险峰、雷娜、丘成桐（2023）最优传输专著理论，实现严谨的 **AE-OT 深度生成模型**。系统首先利用自编码器将图像嵌入低维隐空间流形；随后通过**半离散最优传输（SDOT）**，将连…",
+    "description": "本项目基于顾险峰、雷娜、丘成桐（2023）最优传输专著理论，实现严谨的 **AE-OT 深度生成模型**。系统首先利用自编码器将图像嵌入低维隐空间流形；随后通过**半离散最优传输（SDOT）**，将连续先验白噪声映射为离散样本经验分布。算法求解 Brenier 离散凸势的上包络与源域 Laguerre 胞腔划分，实现几乎零误差的测度守恒；再结合条件 Flow Matching 生成全新高质量数字，彻底解决传统生成模型的模式崩塌与流形拉扯难题。\n\n参考书籍 《最优传输理论与计算》 作者: 雷娜 / 顾险峰",
+    "tags": [
+      "AE-OT",
+      "Brenier",
+      "Laguerre",
+      "最优传输"
+    ],
+    "placeholder": "cover-ai.svg",
+    "cover": "assets/cover-BV19rJa6AENy.webp",
+    "bvid": "BV19rJa6AENy",
+    "page": 1,
+    "duration": "02:11",
+    "links": [],
+    "publishedAt": "2026-10-17"
+  },
+  {
+    "id": "BV11rpk69Eae",
+    "title": "FFT-OT：JavaScript 网格最优传输",
+    "category": "最优传输",
+    "summary": "FFT-OT（Fast Fourier Transform Optimal Transport）是一种基于频域加速的最优传输求解方法。该算法基于 Brenier 定理，将二次代价下的非线性 Monge…",
+    "description": "FFT-OT（Fast Fourier Transform Optimal Transport）是一种基于频域加速的最优传输求解方法。该算法基于 Brenier 定理，将二次代价下的非线性 Monge–Ampère 方程转化为修正势函数的固定点迭代；在矩形域与零 Neumann 边界条件下，借助离散余弦变换（DCT/FFT）在规则网格上极速求解 Poisson 投影，避免了传统方法维护复杂几何结构的开销。本项目为纯 JavaScript 实现，无需任何原生依赖即可在浏览器与 Node.js 端高效运行。",
+    "tags": [
+      "FFT-OT",
+      "Brenier",
+      "最优传输"
+    ],
+    "placeholder": "cover-ot.svg",
+    "cover": "assets/cover-BV11rpk69Eae.webp",
+    "bvid": "BV11rpk69Eae",
+    "page": 1,
+    "duration": "02:24",
+    "links": [],
+    "publishedAt": "2026-10-14"
+  },
+  {
+    "id": "BV1LRWc6ZEaY",
+    "title": "球面最优传输SOT（开源码）",
+    "category": "最优传输",
+    "summary": "球面最优传输（SOT） 用于求解球面 Alexandrov 半离散质量匹配问题。算法固定一组球面站点方向，通过三维径向点构造凸包，迭代优化对数径向高度 hi=logρi，使凸包法锥诱导的球面 Powe…",
+    "description": "球面最优传输（SOT）\n用于求解球面 Alexandrov 半离散质量匹配问题。算法固定一组球面站点方向，通过三维径向点构造凸包，迭代优化对数径向高度  hi=logρi，使凸包法锥诱导的球面 Power Cell 面积精确匹配原曲面顶点的离散目标质量；利用共享大圆弧解析积分装配图拉普拉斯 Hessian 矩阵，借助零和约束牛顿法（或稀疏 PCG）与阻尼回溯线搜索实现高效、稳健的收敛。\n\n参考书籍 《最优传输理论与计算》 作者: 雷娜 / 顾险峰\n关注私信索源码\n#球面最优传输  #计算机图形学 #计算共",
+    "tags": [
+      "SOT",
+      "最优传输"
+    ],
+    "placeholder": "cover-ot.svg",
+    "cover": "assets/cover-BV1LRWc6ZEaY.webp",
+    "bvid": "BV1LRWc6ZEaY",
+    "page": 1,
+    "duration": "03:12",
+    "links": [],
+    "publishedAt": "2026-10-13"
+  },
+  {
+    "id": "BV1dzpn61EfV",
+    "title": "OT-几何最优传输 · 算法全解（开源码）",
+    "category": "最优传输",
+    "summary": "【几何最优传输 · 算法全解】三维人脸上的密集多边形不是视觉滤镜，而是面积质量的最优分配单元。基于顾险峰与丘成桐先生的变分理论，视频深度拆解“保角展开 布雷尼耶凸势 动力胞腔裁剪 牛顿法收敛”的完整几…",
+    "description": "【几何最优传输 · 算法全解】三维人脸上的密集多边形不是视觉滤镜，而是面积质量的最优分配单元。基于顾险峰与丘成桐先生的变分理论，视频深度拆解“保角展开  布雷尼耶凸势   动力胞腔裁剪   牛顿法收敛”的完整几何计算流程，并附带原声实机操作演练。从微分几何到图形算法，带你看懂现代三维几何处理的数学之美！\n\n参考书籍 《最优传输理论与计算》 作者: 雷娜 / 顾险峰\n私信发源码\n#最优传输 #计算机图形学 #计算共形几何 #微分几何 #3D网格",
+    "tags": [
+      "最优传输"
+    ],
+    "placeholder": "cover-ot.svg",
+    "cover": "assets/cover-BV1dzpn61EfV.webp",
+    "bvid": "BV1dzpn61EfV",
+    "page": 1,
+    "duration": "09:02",
+    "links": [],
+    "publishedAt": "2026-10-11"
+  },
+  {
+    "id": "BV1TQpt6QErF",
+    "title": "离散最优传输demo 演示",
+    "category": "最优传输",
+    "summary": "本项目结合离散最优传输、凸几何与蒙日—安培方程的变分理论。算法通过凸势函数与加权泰森多边形构造最优运输映射，利用 Newton 迭代、阻尼优化和 Lawson 翻边，实现源域面积与目标质量的精确匹配。…",
+    "description": "本项目结合离散最优传输、凸几何与蒙日—安培方程的变分理论。算法通过凸势函数与加权泰森多边形构造最优运输映射，利用 Newton 迭代、阻尼优化和 Lawson 翻边，实现源域面积与目标质量的精确匹配。文档深入分析核心数据结构、对偶几何、可视化流程及 JavaScript 复现方法，展示最优传输从数学理论到交互式几何计算的完整过程",
+    "tags": [
+      "最优传输"
+    ],
+    "placeholder": "cover-ot.svg",
+    "cover": "assets/cover-BV1TQpt6QErF.webp",
+    "bvid": "BV1TQpt6QErF",
+    "page": 1,
+    "duration": "04:27",
+    "links": [],
+    "publishedAt": "2026-10-09"
+  },
+  {
+    "id": "BV1hTs96eEAs",
+    "title": "1D Profile + 方向场",
+    "category": "流体模拟",
+    "summary": "河流水面是怎么\"造\"出来的 版本2",
+    "description": "河流水面是怎么\"造\"出来的\n版本2",
+    "tags": [
+      "1D Profile"
+    ],
+    "placeholder": "cover-render.svg",
+    "cover": "assets/cover-BV1hTs96eEAs.webp",
+    "bvid": "BV1hTs96eEAs",
+    "page": 1,
+    "duration": "02:29",
+    "links": [],
+    "publishedAt": "2026-10-28"
+  },
+  {
+    "id": "BV1wTn86kEBa",
+    "title": "一维波形如何生成复杂水面？Three.js 水波算法解析",
+    "category": "流体模拟",
+    "summary": "本项目 Three.js 版本是基于 WebGL 构建的高性能 3D 水体波动实验与数值验证台。系统在 GPU 顶点着色器中完整复现了 Gerstner 解析波核、1D Profile 周期缓存查表与…",
+    "description": "本项目 Three.js 版本是基于 WebGL 构建的高性能 3D 水体波动实验与数值验证台。系统在 GPU 顶点着色器中完整复现了 Gerstner 解析波核、1D Profile 周期缓存查表与 Flow Map 流向加权积分（支持 6~64 频段）；配套 3D 剖面曲线与流向极坐标 HUD，并集成曲率折叠浪尖检测、动态白沫与翡翠次表面散射（SSS），实现兼具物理精度与逼真视觉的免装环境轻量交互验证",
+    "tags": [
+      "Three.js",
+      "WebGL",
+      "Gerstner",
+      "1D Profile"
+    ],
+    "placeholder": "cover-render.svg",
+    "cover": "assets/cover-BV1wTn86kEBa.webp",
+    "bvid": "BV1wTn86kEBa",
+    "page": 1,
+    "duration": "02:02",
+    "links": [],
+    "publishedAt": "2026-10-23"
+  },
+  {
+    "id": "BV1SPnm6qEaD",
+    "title": "从一维波形到局部流向",
+    "category": "流体模拟",
+    "summary": "本项目构建的图形学水体仿真科普视频模块《M1 波动核心：从一维波形到局部流向》。视频深度拆解游戏水体的拟真原理，系统演示从 Gerstner 波参数、一维波形烘焙，到复杂河流流场与余弦幂方向扩散积分的…",
+    "description": "本项目构建的图形学水体仿真科普视频模块《M1 波动核心：从一维波形到局部流向》。视频深度拆解游戏水体的拟真原理，系统演示从 Gerstner 波参数、一维波形烘焙，到复杂河流流场与余弦幂方向扩散积分的完整算法演进。底层代码严谨复刻 Unity 引擎同款数学模型并实时解码流场纹理",
+    "tags": [
+      "Gerstner"
+    ],
+    "placeholder": "cover-render.svg",
+    "cover": "assets/cover-BV1SPnm6qEaD.webp",
+    "bvid": "BV1SPnm6qEaD",
+    "page": 1,
+    "duration": "01:53",
+    "links": [],
+    "publishedAt": "2026-10-22"
+  },
+  {
+    "id": "BV16M3f6wEUB",
+    "title": "非结构网格浅水方程的 LU-SGS 隐式求解",
+    "category": "流体模拟",
+    "summary": "本视频深度解析非结构网格浅水方程的 LU-SGS 隐式求解与单元拓扑重排算法。针对显式 CFL 瓶颈与全隐式内存爆炸痛点，揭秘如何利用 HLLC 通量与标量对角化实现极速无矩阵计算。视频结合自研的 T…",
+    "description": "本视频深度解析非结构网格浅水方程的 LU-SGS 隐式求解与单元拓扑重排算法。针对显式 CFL 瓶颈与全隐式内存爆炸痛点，揭秘如何利用 HLLC 通量与标量对角化实现极速无矩阵计算。视频结合自研的 Three.js 三维可视化系统，直观演示 BFS 分层、图着色等三步重排策略及网格扫掠过程，助您轻松掌握 CFD 高效求解的核心原理！\n#LUSGS #浅水方程 #隐式求解  #三角网单元拓扑重排算法",
+    "tags": [
+      "Three.js",
+      "LU-SGS",
+      "浅水方程"
+    ],
+    "placeholder": "cover-render.svg",
+    "cover": "assets/cover-BV16M3f6wEUB.webp",
+    "bvid": "BV16M3f6wEUB",
+    "page": 1,
+    "duration": "07:16",
+    "links": [],
+    "publishedAt": "2026-08-07"
+  },
+  {
+    "id": "BV1onNc6LEaV",
+    "title": "二维浅水方程降雨径流模拟",
+    "category": "流体模拟",
+    "summary": "一个经典水动力学基准测试案例，主要用于验证二维浅水方程（2D SWE）模型在复杂地形下模拟**降雨-径流（Rainfall-Runoff）**过程的能力。 该案例具有以下特点： 实验原型：基于一个非平…",
+    "description": "一个经典水动力学基准测试案例，主要用于验证二维浅水方程（2D SWE）模型在复杂地形下模拟**降雨-径流（Rainfall-Runoff）**过程的能力。\n\n该案例具有以下特点：\n\n实验原型：基于一个非平坦的小型室内缩尺物理模型（尺度约 2.5 米 x 2 米，网格精度极高）。\n模拟过程：初始状态为完全干床，在特定的时间段内（前45秒）施加极强的人工降雨（约 317 mm/h），随后降雨停止。\n测试目的：重点考验求解器对干湿边界变化（干床漫流）、降雨源项处理以及不规则地形下地表径流的数值稳定性和计算精度，",
+    "tags": [
+      "浅水方程"
+    ],
+    "placeholder": "cover-render.svg",
+    "cover": "assets/cover-BV1onNc6LEaV.webp",
+    "bvid": "BV1onNc6LEaV",
+    "page": 1,
+    "duration": "01:07",
+    "links": [],
+    "publishedAt": "2026-07-11"
+  },
+  {
+    "id": "BV1p2Te6sE81",
+    "title": "WebGL水波解析之二维波动方程",
+    "category": "流体模拟",
+    "summary": "在这期视频中，我们将深入拆解经典开源项目 WebGL Water 的底层数学原理，揭秘平平无奇的数据纹理如何“长出”逼真的动态水波。我们从水面的物理直觉出发，推导了经典的二维连续波动方程，并演示如何利…",
+    "description": "在这期视频中，我们将深入拆解经典开源项目 WebGL Water 的底层数学原理，揭秘平平无奇的数据纹理如何“长出”逼真的动态水波。我们从水面的物理直觉出发，推导了经典的二维连续波动方程，并演示如何利用有限差分法（中心差分）对其进行网格离散化，将抽象的空间二阶导数转化为直观的拉普拉斯算子（四邻居高度差）。 随后，我们逐行剖析了最核心的 updateShader 代码，展示其如何巧妙地采用“高度+速度”的 Verlet 积分状态表示法，将严谨的偏微分方程递推公式在 GPU 中优雅拆解，使得显卡仅需一次纹理采",
+    "tags": [
+      "WebGL",
+      "GPU"
+    ],
+    "placeholder": "cover-render.svg",
+    "cover": "assets/cover-BV1p2Te6sE81.webp",
+    "bvid": "BV1p2Te6sE81",
+    "page": 1,
+    "duration": "04:57",
+    "links": [],
+    "publishedAt": "2026-07-01"
+  },
+  {
+    "id": "BV1xNj86uEfb",
+    "title": "GPU 如何算水波",
+    "category": "流体模拟",
+    "summary": "本期从经典 WebGL Water demo 入手，拆解一片水面背后的 GPU 计算管线。我们会把漂亮的水面效果拆成“模拟系统”和“渲染系统”，理解水面高度、速度和法线如何存进 RGBA 浮点纹理。课…",
+    "description": "本期从经典 WebGL Water demo 入手，拆解一片水面背后的 GPU 计算管线。我们会把漂亮的水面效果拆成“模拟系统”和“渲染系统”，理解水面高度、速度和法线如何存进 RGBA 浮点纹理。课程重点讲解 RenderTarget、Shader Pass 和 Ping-Pong 双缓冲：为什么 GPU 计算必须读旧纹理、写新纹理，再交换两者。最后，我们会实现一个最小 Three.js GPGPU 管线，建立“用纹理保存状态，用片段着色器更新状态”的核心直觉。\n#GPGPU #GPU #水波 #Web",
+    "tags": [
+      "Three.js",
+      "WebGL",
+      "GPU",
+      "GPGPU"
+    ],
+    "placeholder": "cover-render.svg",
+    "cover": "assets/cover-BV1xNj86uEfb.webp",
+    "bvid": "BV1xNj86uEfb",
+    "page": 1,
+    "duration": "06:13",
+    "links": [],
+    "publishedAt": "2026-06-21"
+  },
+  {
+    "id": "BV1QgET6WE7p",
+    "title": "webgpu 四边形网格 水动力模拟",
+    "category": "流体模拟",
+    "summary": "继三角网之后，又完成了webgpu 四边形网格 水动力模拟",
+    "description": "继三角网之后，又完成了webgpu 四边形网格 水动力模拟",
+    "tags": [
+      "WebGPU",
+      "四边形网格",
+      "浅水方程"
+    ],
+    "placeholder": "cover-render.svg",
+    "cover": "assets/cover-BV1QgET6WE7p.webp",
+    "bvid": "BV1QgET6WE7p",
+    "page": 1,
+    "duration": "01:29",
+    "links": [],
+    "publishedAt": "2026-06-08"
+  },
+  {
+    "id": "BV1PMVn6vEcK",
+    "title": "基于 WebGPU 的“非结构三角网格浅水方程（SWE）实时模拟系统",
+    "category": "流体模拟",
+    "summary": "全网首个基于 WebGPU 的“非结构三角网格浅水方程（SWE）实时模拟系统”硬核发布！ 不同于常见的规则网格流体 Demo，本项目挑战了完美贴合复杂自然地形的非结构网格。算法搭载高精度有限体积法（F…",
+    "description": "全网首个基于 WebGPU 的“非结构三角网格浅水方程（SWE）实时模拟系统”硬核发布！\n\n不同于常见的规则网格流体 Demo，本项目挑战了完美贴合复杂自然地形的非结构网格。算法搭载高精度有限体积法（FVM）与中心迎风格式，融合 Well-balanced 处理与严谨的干湿边界追踪，确保绝对的质量守恒与物理真实。\n\n针对非结构拓扑的性能痛点，系统利用 WebGPU 构建了一维扁平化数据架构与无锁并发调度策略，彻底消除内存读写冲突，榨干底层异构算力。\n\n结合不对称溃坝与山丘漫水案例，不仅实现了真实的 3D",
+    "tags": [
+      "WebGPU",
+      "非结构网格",
+      "FVM"
+    ],
+    "placeholder": "cover-render.svg",
+    "cover": "assets/cover-BV1PMVn6vEcK.webp",
+    "bvid": "BV1PMVn6vEcK",
+    "page": 1,
+    "duration": "04:01",
+    "links": [],
+    "publishedAt": "2026-05-31"
+  },
+  {
+    "id": "BV19TGi64ERn",
+    "title": "基于 WebGPU 的浅水方程 (SWE) 实时流体模拟系统介绍",
+    "category": "流体模拟",
+    "summary": "本工程是一个基于 **WebGPU** 和 **Three.js** 开发的实时大规模流体模拟系统。其核心物理模拟算法主要基于文浅水方程（Shallow Water Equations, SWE）求解…",
+    "description": "本工程是一个基于 **WebGPU** 和 **Three.js** 开发的实时大规模流体模拟系统。其核心物理模拟算法主要基于文浅水方程（Shallow Water Equations, SWE）求解方法。\n为充分利用 GPU 的渲染管线，本工程将流体计算的三个核心步骤拆解并映射为 WebGPU 中的三个计算管线（Compute Pipelines）。它们通过交替采样上一帧的存储纹理 (Storage Textures) 数据进行迭代更新。\n速度平流管线 (Advection Pass)\n高度积分管线 (",
+    "tags": [
+      "WebGPU",
+      "Three.js",
+      "浅水方程"
+    ],
+    "placeholder": "cover-render.svg",
+    "cover": "assets/cover-BV19TGi64ERn.webp",
+    "bvid": "BV19TGi64ERn",
+    "page": 1,
+    "duration": "03:20",
+    "links": [],
+    "publishedAt": "2026-05-23"
+  },
+  {
+    "id": "BV11B5p61EFu",
+    "title": "WEBGPU  LBM SWE仿真模拟",
+    "category": "流体模拟",
+    "summary": "这个 WebGPU LBM-SWE 示例基于格子玻尔兹曼方法与浅水方程实现二维水流仿真，利用 WebGPU compute shader 在浏览器中并行计算水深、速度、边界与地形交互。系统支持多种地形…",
+    "description": "这个 WebGPU LBM-SWE 示例基于格子玻尔兹曼方法与浅水方程实现二维水流仿真，利用 WebGPU compute shader 在浏览器中并行计算水深、速度、边界与地形交互。系统支持多种地形输入，包括预设河道、高程图和 tif 数据，可配置入流、出流与障碍区域。渲染端结合 Three.js WebGPU，提供速度、水深、地形、LIC 流线纹理和真实水面等视图，并带有色带图例辅助分析。它适合用于洪水漫流、河道流场、Flowmap 生成与实时可视化验证。",
+    "tags": [
+      "WebGPU",
+      "LBM",
+      "浅水方程"
+    ],
+    "placeholder": "cover-render.svg",
+    "cover": "assets/cover-BV11B5p61EFu.webp",
+    "bvid": "BV11B5p61EFu",
+    "page": 1,
+    "duration": "01:34",
+    "links": [],
+    "publishedAt": "2026-05-11"
+  }
+]
