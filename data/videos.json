@@ -235,13 +235,13 @@
     "id": "BV16RGG6TEY6",
     "title": "计算共形几何  Hodge分解计算",
     "category": "计算共形几何",
-    "summary": "计算共形几何 Hodge分解计算 #计算共形几何 #Hodge分解 #外微分",
-    "description": "计算共形几何\nHodge分解计算\n#计算共形几何 #Hodge分解 #外微分",
+    "summary": "本模块基于离散外微积分（DEC）实现网格 1-形式的 Hodge 正交分解。算法利用余切权重在原网格与对偶图上构建离散 Laplace 算子，通过求解 Poisson 方程依次剥离恰当形式（无旋梯度）与共恰当形式（无散旋度），从而精确提取反映曲面拓扑特征的调和分量。它是全纯 1-形式计算、无缝保角参数化及四边形网格生成的关键几何算法基石。",
+    "description": "计算共形几何\nHodge分解计算\n本模块基于离散外微积分（DEC）实现网格 1-形式的 Hodge 正交分解。算法利用余切权重在原网格与对偶图上构建离散 Laplace 算子，通过求解 Poisson 方程依次剥离恰当形式（无旋梯度）与共恰当形式（无散旋度），从而精确提取反映曲面拓扑特征的调和分量。它是全纯 1-形式计算、无缝保角参数化及四边形网格生成的关键几何算法基石。\n#计算共形几何 #Hodge分解 #外微分",
     "tags": [
       "Hodge"
     ],
     "placeholder": "cover-geometry.svg",
-    "cover": "assets/cover-BV16RGG6TEY6.webp",
+    "cover": "assets/HODGE4.31.png",
     "bvid": "BV16RGG6TEY6",
     "page": 1,
     "duration": "02:52",
