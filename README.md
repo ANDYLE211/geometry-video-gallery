@@ -38,8 +38,10 @@ python3 serve.py
 - 保存后提交并推送 `data/videos.json`，部署完成后所有访客都会看到相同的默认顺序。普通页面不会出现编辑控件，不依赖浏览器本地存储。
 - 排序编辑仅在本地维护服务中可用，GitHub Pages 和 `python3 -m http.server` 只支持展示。
 
-测试：`node tests/video-order.test.cjs` 和 `python3 -m unittest discover -s tests`。
+测试：`node tests/video-order.test.cjs`、`node tests/app-loading.test.cjs` 和 `python3 -m unittest discover -s tests`。
 
 ## 部署
 
 在仓库的 **Settings → Pages** 中，将发布来源设为 **GitHub Actions**。推送至 `main` 分支后，现有工作流会自动部署网站。
+
+部署时由 `build_site.py` 生成 `_site/`，自动为脚本、样式和视频数据请求添加相同的内容版本号，避免新旧缓存混用；修改排序数据也会更新版本号。本地维护仍使用源文件，无需构建。

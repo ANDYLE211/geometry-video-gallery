@@ -1,5 +1,8 @@
 (() => {
   'use strict';
+  const release = new URL(document.currentScript.src).searchParams.get('v');
+  const dataUrl = new URL('data/videos.json', document.baseURI);
+  if (release) dataUrl.searchParams.set('v', release);
   const $ = (selector) => document.querySelector(selector);
   const grid = $('#video-grid');
   const filters = $('#filters');
@@ -161,7 +164,7 @@
   search.addEventListener('input',render);
   sort.addEventListener('change',render);
   $('#year').textContent = String(new Date().getFullYear());
-  fetch('data/videos.json', { cache: 'no-store' }).then(response=>{ if(!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); }).then(data=>{
+  fetch(dataUrl, { cache: 'no-store' }).then(response=>{ if(!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); }).then(data=>{
     if(!Array.isArray(data))throw new Error('JSON 根节点必须是数组');
     videos=data.filter(video=>video && video.id && video.title && video.category);
     $('#stat-total').textContent=String(videos.length).padStart(2,'0'); $('#stat-categories').textContent=String(new Set(videos.map(v=>v.category)).size).padStart(2,'0');
