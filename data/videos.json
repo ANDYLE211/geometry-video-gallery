@@ -14,7 +14,9 @@
     "page": 1,
     "duration": "05:16",
     "links": [],
-    "publishedAt": "2026-09-30"
+    "publishedAt": "2026-09-30",
+    "pinned": true,
+    "sortWeight": 7
   },
   {
     "id": "BV1XMhQ62EeW",
@@ -31,7 +33,9 @@
     "page": 1,
     "duration": "04:25",
     "links": [],
-    "publishedAt": "2026-09-26"
+    "publishedAt": "2026-09-26",
+    "pinned": false,
+    "sortWeight": 5
   },
   {
     "id": "BV1GRaN6XEG5",
@@ -49,7 +53,9 @@
     "page": 1,
     "duration": "02:43",
     "links": [],
-    "publishedAt": "2026-09-24"
+    "publishedAt": "2026-09-24",
+    "pinned": true,
+    "sortWeight": 6
   },
   {
     "id": "BV1dQhW6CEXc",
@@ -67,7 +73,9 @@
     "page": 1,
     "duration": "02:36",
     "links": [],
-    "publishedAt": "2026-09-23"
+    "publishedAt": "2026-09-23",
+    "pinned": false,
+    "sortWeight": 5
   },
   {
     "id": "BV1iRhv63E6e",
@@ -85,7 +93,9 @@
     "page": 1,
     "duration": "02:58",
     "links": [],
-    "publishedAt": "2026-09-21"
+    "publishedAt": "2026-09-21",
+    "pinned": true,
+    "sortWeight": 9
   },
   {
     "id": "BV15yem67EoN",
@@ -102,7 +112,9 @@
     "page": 1,
     "duration": "01:24",
     "links": [],
-    "publishedAt": "2026-09-18"
+    "publishedAt": "2026-09-18",
+    "pinned": true,
+    "sortWeight": 7
   },
   {
     "id": "BV1wnYx6hEmn",
@@ -119,7 +131,9 @@
     "page": 1,
     "duration": "01:24",
     "links": [],
-    "publishedAt": "2026-09-09"
+    "publishedAt": "2026-09-09",
+    "pinned": false,
+    "sortWeight": 5
   },
   {
     "id": "BV148bn65EMH",
@@ -136,7 +150,9 @@
     "page": 1,
     "duration": "03:22",
     "links": [],
-    "publishedAt": "2026-09-06"
+    "publishedAt": "2026-09-06",
+    "pinned": false,
+    "sortWeight": 5
   },
   {
     "id": "BV1dJbL61ESK",
@@ -156,7 +172,9 @@
     "page": 1,
     "duration": "01:29",
     "links": [],
-    "publishedAt": "2026-09-05"
+    "publishedAt": "2026-09-05",
+    "pinned": false,
+    "sortWeight": 5
   },
   {
     "id": "BV1iotT6sEqT",
@@ -176,7 +194,9 @@
     "page": 1,
     "duration": "01:44",
     "links": [],
-    "publishedAt": "2026-09-01"
+    "publishedAt": "2026-09-01",
+    "pinned": true,
+    "sortWeight": 8
   },
   {
     "id": "BV19C416RE92",
@@ -193,7 +213,9 @@
     "page": 1,
     "duration": "02:20",
     "links": [],
-    "publishedAt": "2026-08-29"
+    "publishedAt": "2026-08-29",
+    "pinned": false,
+    "sortWeight": 6
   },
   {
     "id": "BV1Ky8269E2G",
@@ -210,7 +232,9 @@
     "page": 1,
     "duration": "02:23",
     "links": [],
-    "publishedAt": "2026-08-22"
+    "publishedAt": "2026-08-22",
+    "pinned": false,
+    "sortWeight": 6
   },
   {
     "id": "BV1bpgA6nEVd",
@@ -229,7 +253,9 @@
     "page": 1,
     "duration": "01:29",
     "links": [],
-    "publishedAt": "2026-08-14"
+    "publishedAt": "2026-08-14",
+    "pinned": false,
+    "sortWeight": 5
   },
   {
     "id": "BV16RGG6TEY6",
@@ -246,7 +272,9 @@
     "page": 1,
     "duration": "02:52",
     "links": [],
-    "publishedAt": "2026-08-01"
+    "publishedAt": "2026-08-01",
+    "pinned": true,
+    "sortWeight": 8
   },
   {
     "id": "BV1MJ3E6aEEw",
@@ -263,7 +291,9 @@
     "page": 1,
     "duration": "01:30",
     "links": [],
-    "publishedAt": "2026-07-26"
+    "publishedAt": "2026-07-26",
+    "pinned": false,
+    "sortWeight": 5
   },
   {
     "id": "BV1pegv6AEJ4",
@@ -280,7 +310,9 @@
     "page": 1,
     "duration": "01:41",
     "links": [],
-    "publishedAt": "2026-07-24"
+    "publishedAt": "2026-07-24",
+    "pinned": true,
+    "sortWeight": 10
   },
   {
     "id": "BV1UggQ6XEML",
@@ -297,7 +329,9 @@
     "page": 1,
     "duration": "00:48",
     "links": [],
-    "publishedAt": "2026-07-23"
+    "publishedAt": "2026-07-23",
+    "pinned": false,
+    "sortWeight": 5
   },
   {
     "id": "BV1kyrrBZEZv",
@@ -315,7 +349,9 @@
     "page": 1,
     "duration": "01:33",
     "links": [],
-    "publishedAt": "2026-01-16"
+    "publishedAt": "2026-01-16",
+    "pinned": false,
+    "sortWeight": 5
   },
   {
     "id": "BV1qdrTBpEK7",
@@ -333,7 +369,9 @@
     "page": 1,
     "duration": "02:17",
     "links": [],
-    "publishedAt": "2026-01-09"
+    "publishedAt": "2026-01-09",
+    "pinned": false,
+    "sortWeight": 3
   },
   {
     "id": "BV13oq9BeEDV",
@@ -351,7 +389,9 @@
     "page": 1,
     "duration": "01:36",
     "links": [],
-    "publishedAt": "2025-12-19"
+    "publishedAt": "2025-12-19",
+    "pinned": false,
+    "sortWeight": 5
   },
   {
     "id": "BV1JCp7z4E44",
@@ -369,7 +409,9 @@
     "page": 1,
     "duration": "00:11",
     "links": [],
-    "publishedAt": "2025-09-13"
+    "publishedAt": "2025-09-13",
+    "pinned": false,
+    "sortWeight": 5
   },
   {
     "id": "BV1dypVzuEbf",
@@ -387,7 +429,9 @@
     "page": 1,
     "duration": "00:30",
     "links": [],
-    "publishedAt": "2025-09-13"
+    "publishedAt": "2025-09-13",
+    "pinned": false,
+    "sortWeight": 5
   },
   {
     "id": "BV1NjnB6BEvw",
@@ -404,7 +448,9 @@
     "page": 1,
     "duration": "03:11",
     "links": [],
-    "publishedAt": "2026-10-21"
+    "publishedAt": "2026-10-21",
+    "pinned": false,
+    "sortWeight": 0
   },
   {
     "id": "BV1v5n56QE3W",
@@ -424,7 +470,9 @@
     "page": 1,
     "duration": "05:03",
     "links": [],
-    "publishedAt": "2026-10-18"
+    "publishedAt": "2026-10-18",
+    "pinned": false,
+    "sortWeight": 1
   },
   {
     "id": "BV19rJa6AENy",
@@ -444,7 +492,9 @@
     "page": 1,
     "duration": "02:11",
     "links": [],
-    "publishedAt": "2026-10-17"
+    "publishedAt": "2026-10-17",
+    "pinned": false,
+    "sortWeight": 1
   },
   {
     "id": "BV11rpk69Eae",
@@ -463,7 +513,9 @@
     "page": 1,
     "duration": "02:24",
     "links": [],
-    "publishedAt": "2026-10-14"
+    "publishedAt": "2026-10-14",
+    "pinned": false,
+    "sortWeight": 2
   },
   {
     "id": "BV1LRWc6ZEaY",
@@ -481,7 +533,9 @@
     "page": 1,
     "duration": "03:12",
     "links": [],
-    "publishedAt": "2026-10-13"
+    "publishedAt": "2026-10-13",
+    "pinned": false,
+    "sortWeight": 2
   },
   {
     "id": "BV1dzpn61EfV",
@@ -498,7 +552,9 @@
     "page": 1,
     "duration": "09:02",
     "links": [],
-    "publishedAt": "2026-10-11"
+    "publishedAt": "2026-10-11",
+    "pinned": false,
+    "sortWeight": 2
   },
   {
     "id": "BV1TQpt6QErF",
@@ -515,7 +571,9 @@
     "page": 1,
     "duration": "04:27",
     "links": [],
-    "publishedAt": "2026-10-09"
+    "publishedAt": "2026-10-09",
+    "pinned": false,
+    "sortWeight": 0
   },
   {
     "id": "BV1hTs96eEAs",
@@ -532,7 +590,9 @@
     "page": 1,
     "duration": "02:29",
     "links": [],
-    "publishedAt": "2026-10-28"
+    "publishedAt": "2026-10-28",
+    "pinned": false,
+    "sortWeight": 0
   },
   {
     "id": "BV1wTn86kEBa",
@@ -552,7 +612,9 @@
     "page": 1,
     "duration": "02:02",
     "links": [],
-    "publishedAt": "2026-10-23"
+    "publishedAt": "2026-10-23",
+    "pinned": false,
+    "sortWeight": 0
   },
   {
     "id": "BV1SPnm6qEaD",
@@ -569,7 +631,9 @@
     "page": 1,
     "duration": "01:53",
     "links": [],
-    "publishedAt": "2026-10-22"
+    "publishedAt": "2026-10-22",
+    "pinned": false,
+    "sortWeight": 0
   },
   {
     "id": "BV16M3f6wEUB",
@@ -588,7 +652,9 @@
     "page": 1,
     "duration": "07:16",
     "links": [],
-    "publishedAt": "2026-08-07"
+    "publishedAt": "2026-08-07",
+    "pinned": false,
+    "sortWeight": 3
   },
   {
     "id": "BV1onNc6LEaV",
@@ -605,7 +671,9 @@
     "page": 1,
     "duration": "01:07",
     "links": [],
-    "publishedAt": "2026-07-11"
+    "publishedAt": "2026-07-11",
+    "pinned": false,
+    "sortWeight": 1
   },
   {
     "id": "BV1p2Te6sE81",
@@ -623,7 +691,9 @@
     "page": 1,
     "duration": "04:57",
     "links": [],
-    "publishedAt": "2026-07-01"
+    "publishedAt": "2026-07-01",
+    "pinned": false,
+    "sortWeight": 2
   },
   {
     "id": "BV1xNj86uEfb",
@@ -643,7 +713,9 @@
     "page": 1,
     "duration": "06:13",
     "links": [],
-    "publishedAt": "2026-06-21"
+    "publishedAt": "2026-06-21",
+    "pinned": false,
+    "sortWeight": 2
   },
   {
     "id": "BV1QgET6WE7p",
@@ -662,7 +734,9 @@
     "page": 1,
     "duration": "01:29",
     "links": [],
-    "publishedAt": "2026-06-08"
+    "publishedAt": "2026-06-08",
+    "pinned": false,
+    "sortWeight": 2
   },
   {
     "id": "BV1PMVn6vEcK",
@@ -681,7 +755,9 @@
     "page": 1,
     "duration": "04:01",
     "links": [],
-    "publishedAt": "2026-05-31"
+    "publishedAt": "2026-05-31",
+    "pinned": true,
+    "sortWeight": 3
   },
   {
     "id": "BV19TGi64ERn",
@@ -700,7 +776,9 @@
     "page": 1,
     "duration": "03:20",
     "links": [],
-    "publishedAt": "2026-05-23"
+    "publishedAt": "2026-05-23",
+    "pinned": false,
+    "sortWeight": 3
   },
   {
     "id": "BV11B5p61EFu",
@@ -719,6 +797,8 @@
     "page": 1,
     "duration": "01:34",
     "links": [],
-    "publishedAt": "2026-05-11"
+    "publishedAt": "2026-05-11",
+    "pinned": false,
+    "sortWeight": 0
   }
 ]

@@ -2,5 +2,6 @@
 Thumbs.db
 .vscode/
 node_modules/
+__pycache__/
 data/Lays_chip投稿视频-Lays_chip视频分享-哔哩哔哩视频.mhtml
 data/Lays_chip投稿视频-Lays_chip视频分享-哔哩哔哩视频2.mhtml
